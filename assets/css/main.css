@@ -8,6 +8,12 @@
 	background-repeat: no-repeat;
 }
 
+.tpr9 {
+	height: 150px;
+	width: 250px;
+	border-radius: 5px;
+}
+
 html,
 body,
 div,
@@ -175,7 +181,7 @@ body {
 	background: #ffffff;
 }
 
-body.is-preload *,
+/* body.is-preload *,
 body.is-preload *:before,
 body.is-preload *:after {
 	-moz-animation: none !important;
@@ -186,7 +192,7 @@ body.is-preload *:after {
 	-webkit-transition: none !important;
 	-ms-transition: none !important;
 	transition: none !important;
-}
+} */
 
 /* Type */
 
@@ -2784,13 +2790,13 @@ body:not(.is-touch) .tiles article:hover .content {
 	margin-top: 2em;
 }
 
-body.is-preload .tiles article {
+/* body.is-preload .tiles article {
 	-moz-transform: scale(0.9);
 	-webkit-transform: scale(0.9);
 	-ms-transform: scale(0.9);
 	transform: scale(0.9);
 	opacity: 0;
-}
+} */
 
 body.is-touch .tiles article .content {
 	max-height: 15em;
@@ -3363,35 +3369,34 @@ body.is-menu-visible #menu .close {
 }
 
 .zoomIn {
-    -webkit-animation-name: zoomIn;
-    animation-name: zoomIn;
-    -webkit-animation-duration: 1s;
-    animation-duration: 2s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+	-webkit-animation-name: zoomIn;
+	animation-name: zoomIn;
+	-webkit-animation-duration: 1s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
 }
 
 @-webkit-keyframes zoomIn {
-    0% {
-        opacity: 0;
-        -webkit-transform: scale3d(.3, .3, .3);
-        transform: scale3d(.3, .3, .3);
-    }
+	0% {
+		opacity: 0;
+		-webkit-transform: scale3d(.3, .3, .3);
+		transform: scale3d(.3, .3, .3);
+	}
 
-    50% {
-        opacity: 1;
-    }
+	50% {
+		opacity: 1;
+	}
 }
 
 @keyframes zoomIn {
-    0% {
-        opacity: 0;
-        -webkit-transform: scale3d(.3, .3, .3);
-        transform: scale3d(.3, .3, .3);
-    }
+	0% {
+		opacity: 0;
+		-webkit-transform: scale3d(.3, .3, .3);
+		transform: scale3d(.3, .3, .3);
+	}
 
-    50% {
-        opacity: 1;
-    }
+	50% {
+		opacity: 1;
+	}
 }
-
